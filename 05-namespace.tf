@@ -5,6 +5,8 @@ resource "kubernetes_namespace" "namespaces" {
   metadata {
     name = each.key
   }
-  depends_on = [azurerm_kubernetes_cluster_node_pool.standard_nodes, azurerm_kubernetes_cluster_node_pool.spot_nodes]
+  depends_on = [
+    azurerm_kubernetes_cluster_node_pool.standard_nodes
+    ]
 }
 ###############################################
