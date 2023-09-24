@@ -29,6 +29,5 @@ Follow these steps to deploy the infrastructure:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/Meet-S0ni/Terraform-AKS.git
    cd your-repo-directory
-```
