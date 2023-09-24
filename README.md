@@ -30,4 +30,4 @@ Follow these steps to deploy the infrastructure:
 
    ```bash
    git clone https://github.com/Meet-S0ni/Terraform-AKS.git
-   cd your-repo-directory
+   cd Terraform-AKS
