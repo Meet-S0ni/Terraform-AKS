@@ -29,15 +29,10 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
     node_labels = {
       "nodepool-type"    = "system"
       "nodepoolos"       = "linux"
-      "app"              = "system-apps"
-      "createdby"        = "${var.created_by}"
     } 
     tags = {
       "nodepool-type"    = "system"
       "nodepoolos"       = "linux"
-      "app"              = "system-apps"
-      "Created by"  	   = "${var.created_by}"
-      "Creation Date"  	 = "$date"
     } 
   }
 	
@@ -53,10 +48,6 @@ network_profile {
     load_balancer_sku = "standard"
   }
   
-  tags = {
-    "Environment"   = "${var.environment}"
-    "Created by"    = "${var.created_by}"
-  }
 }
 
 ####################################################################################
