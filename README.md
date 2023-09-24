@@ -14,6 +14,10 @@ This Terraform script deploys a set of Azure resources for a web application inf
 
 6. **WordPress Application**: Installs WordPress within the "web" namespace, allowing you to host your web application.
 
+## Flow
+
+![alt text](https://github.com/Meet-S0ni/Terraform-AKS/blob/main/flow.png)
+
 ## Prerequisites
 
 Before you begin, ensure you have:
