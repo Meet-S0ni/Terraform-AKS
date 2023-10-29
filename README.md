@@ -22,6 +22,8 @@ This Terraform script deploys a set of Azure resources for a web application inf
 
 Before you begin, ensure you have:
 
+- Azure Account with Aks cluster
+- [connect aks cluster](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli#connect-to-the-cluster). and get your kubeconfig  
 - [Terraform](https://www.terraform.io/downloads.html) installed.
 - Azure CLI installed and authenticated.
 - Proper permissions to create Azure resources.
@@ -35,3 +37,12 @@ Follow these steps to deploy the infrastructure:
    ```bash
    git clone https://github.com/Meet-S0ni/Terraform-AKS.git
    cd Terraform-AKS
+
+2. Get Kubeconfig file from /home/<your user>/.kube/config
+
+3. Create Resources
+
+   ```bash
+   terraform init
+   terraform plan 
+   terraform apply
