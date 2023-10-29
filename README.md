@@ -38,7 +38,7 @@ Follow these steps to deploy the infrastructure:
    git clone https://github.com/Meet-S0ni/Terraform-AKS.git
    cd Terraform-AKS
 
-2. Get Kubeconfig file from /home/<your user>/.kube/config
+2. Get Kubeconfig file from /home/<youruser>/.kube/config
 
 3. Create Resources
 
